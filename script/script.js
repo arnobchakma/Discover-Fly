@@ -13,6 +13,7 @@ function ticketNumber(id, isIncrease) {
     calculationForTicket();
   }
   
+  
   // Calculation for all ticket price//
     const firstClassTicket = document.getElementById('first-class');
     const economyClassTicket = document.getElementById('economy-class');
@@ -24,6 +25,7 @@ function ticketNumber(id, isIncrease) {
         document.getElementById('total').innerText = '$' + (total + total / 10);
     }
     
+
     // This function is for book now button//
     function bookingNow() {
         if (firstClassTicket.value === '0' && economyClassTicket.value === '0'){

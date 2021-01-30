@@ -124,16 +124,11 @@ a.active {
 }
 #showMessage {
   text-align: center;
-  text-decoration: wavy;
   display: none;
   font-weight: 400;
   font-size: 50px;
-  color: white;
 }
 .ticket {
-  color: gold;
+  color: rgb(235, 236, 236);
 }
-.ticket1 {
-  font-style: italic;
-  color: chartreuse;
-}
+
